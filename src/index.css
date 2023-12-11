@@ -1,0 +1,41 @@
+
+* { box-sizing: border-box; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 30px;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+  height: 250px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid gray;
+}
+
+.highlight {
+  position: absolute;
+  /* TODO */
+  z-index: 999;
+  border: 1px solid red;
+  pointer-events: none;
+}
+
+button {
+  position: fixed;
+  top: 60px;
+  left: 20px;
+}
